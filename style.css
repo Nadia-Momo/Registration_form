@@ -1,0 +1,222 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background: url('beach.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.button {
+    color: white;
+    background-color: blue;
+    border: 0;
+    font-size: 15px;
+    margin: 5px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+#form {
+    border-radius: 10px;
+    background-color: rgb(240, 248, 255, 0.6);
+    display: flex;
+    justify-content: center;
+    height: 1050px;
+    width: 1000px;
+    backdrop-filter: blur(20px);
+}
+
+datalist {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    writing-mode: vertical-lr;
+    width: 200px;
+}
+
+option {
+    padding: 0;
+    text-align: center;
+
+}
+
+input[type="range"] {
+    width: 200px;
+    margin: 0;
+}
+
+input[type="date"] {
+    width: 690px;
+    border: 0;
+    padding: 10px;
+    color: darkgray;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 6px;
+}
+
+.name input {
+    border: 0;
+}
+
+.name {
+    padding: 10px;
+}
+
+.name p {
+    padding: 0;
+    margin: 0;
+    color: gray;
+    font-weight: bold;
+}
+
+.name input {
+    width: 213px;
+    height: 20px;
+    padding: 5px;
+}
+
+.full_name {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.label_name {
+    font-size: 22px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.GenderandDegree {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 3px;
+
+
+}
+
+input[type="radio"] {
+    height: 22px;
+    width: 22px;
+
+}
+
+#street_address input {
+    width: 330px;
+    height: 20px;
+    border: 0;
+    margin-left: 10px;
+    padding: 9px;
+}
+
+input::placeholder {
+    font-size: 16px;
+    font-weight: bold;
+    color: gray;
+}
+
+#city input {
+    width: 330px;
+    height: 20px;
+    border: 0;
+    margin-left: 10px;
+    padding: 9px;
+}
+
+select {
+    width: 623px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: gray;
+    margin-left: 3px;
+    border: 0;
+}
+
+#department {
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: gray;
+    margin-left: 3px;
+    border: 0;
+}
+
+.EmailandPhone {
+    width: 238px;
+    height: 30px;
+    border: 0;
+    margin-top: 5px;
+    padding: 4px;
+    margin-left: 3px;
+}
+
+#image_holder {
+    height: 55px;
+    width: 200px;
+    background-color: aliceblue;
+    border: 2px solid lightblue;
+    box-shadow: 3px 3px lightblue;
+}
+
+.activities {
+    height: 130px;
+    width: 160px;
+    border: 1px solid lightblue;
+    box-shadow: 3px 3px lightblue;
+    background-color: aliceblue;
+    padding: 10px;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.DepartmentandExtra {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.deptandambience {
+    display: flex;
+    flex-direction: column;
+}
+
+.button_part {
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+p {
+    text-align: center;
+    margin: 0;
+}
+
+.w1 {
+    box-shadow: 2px 2px 1px lightblue;
+}
+.emandph{
+    display:flex;
+    justify-content: center;
+}
+.GenderandDegree1{
+    display:flex;
+    gap:20px;
+}

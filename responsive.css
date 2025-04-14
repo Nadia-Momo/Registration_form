@@ -1,0 +1,102 @@
+@media only screen and (max-width: 575.98px){
+    #form{
+        width: 100%;
+        height:100%;
+    } 
+    .full_name{
+        flex-direction: column;
+       
+    } 
+    .name input{
+        margin-left: 131px;
+    }
+
+    input[type="date"]{
+        width: 272px;
+        margin-left: 99px;
+      
+    }
+
+        .GenderandDegree {
+            margin-left: 103px;
+          }
+          .label_name{
+            font-size: 17px;
+          }
+          #street_address{
+            display: flex;
+  flex-direction: column;
+  margin-left: 95px;
+  gap:
+10px;
+}
+#city{
+    display: flex;
+  flex-direction: column;
+  margin-left: 96px;
+  gap:10px;
+}  
+.country_select{
+    
+    width: 282px;
+    margin-left:108px;
+}
+.Degree{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+      width: 347px;
+      margin-left: 143px;
+}  
+.student_image {
+    margin-left: 151px;
+    margin-top: 10px;
+}
+.DepartmentandExtra{
+    display:flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+.emandph{
+    display: flex;
+  flex-direction: column;
+  margin-left: 204px;
+}
+.emandph {
+    display: flex;
+    flex-direction: column;
+    margin-left:93px;
+  }
+  .mg{
+    margin-left:15px;
+  }
+  .student_name{
+    margin-left:190px;
+  }
+  .Birth_date{
+    margin-left:204px;
+  }
+  .address{
+    margin-left:212px;
+  }
+  .country{
+    margin-left:223px; 
+  }
+  #street_address input {
+    width: 265px;
+    }
+    #city input {
+      width: 265px;}
+      .EmailandPhone {
+        width: 217px;}
+        
+        .phone_input{
+width:165px;
+        }
+      #department{
+        width:200px;
+      }
+      .button_part{
+        width: 320px;
+      }  
+}
