@@ -115,4 +115,7 @@ width:165px;
       button[type="reset"]{
         padding-left: 60px;
       }
+      .activities{
+        width: 180px;
+      }
 }
